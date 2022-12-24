@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ModifyPage</class>
+ <widget class="QWidget" name="ModifyPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>800</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#ModifyPage QPushButton{
+  border:none;
+  border-radius:10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font: 14pt &quot;Microsoft YaHei UI&quot;;   
+
+}
+ QPushButton:hover{
+  
+	background-color: rgb(177, 255, 255);
+}
+QWidget#ModifyPage QLabel{
+	color: rgb(0, 0, 0);
+	font: 14pt &quot;Microsoft YaHei UI&quot;;
+	background-color: rgb(255, 255, 255);
+}
+QWidget#ModifyPage QLineEdit{
+	color: rgb(0, 0, 0);
+	font: 14pt &quot;Microsoft YaHei UI&quot;;
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>700</height>
+    </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>800</width>
+     <height>700</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame#frame{
+	background-image: url(:/image/2.jpg);
+
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>760</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>这里可以根据学生的学号进行相关信息的修改</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="okbtn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>510</y>
+      <width>170</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>进行修改</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backbtn">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>510</y>
+      <width>170</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>500</width>
+      <height>400</height>
+     </size>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>取消返回</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>130</y>
+      <width>481</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>欢迎来到“学生成绩管理系统”</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

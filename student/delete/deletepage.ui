@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeletePage</class>
+ <widget class="QDialog" name="DeletePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>800</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#DeletePage  QPushButton{
+  border:none;
+  border-radius:10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font: 14pt &quot;Microsoft YaHei UI&quot;;   
+
+}
+ QPushButton:hover{
+  
+	background-color: rgb(177, 255, 255);
+}
+QDialog#DeletePage  QLabel{
+	color: rgb(0, 0, 0);
+	 font: 14pt &quot;Microsoft YaHei UI&quot;;   
+	background-color: rgb(255, 255, 255);
+}
+QDialog#DeletePage QLineEdit{
+	color: rgb(0, 0, 0);
+ font: 14pt &quot;Microsoft YaHei UI&quot;;   
+	background-color: rgb(255, 255, 255);
+}
+
+QDialog{
+	background-image: url(:/image/2.jpg);
+}
+</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>760</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="text">
+    <string>这里可以根据学生的学号进行相关信息的删除</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>130</y>
+     <width>481</width>
+     <height>59</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="text">
+    <string>欢迎来到“学生成绩管理系统”</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>510</y>
+     <width>170</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>进行删除</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>510</y>
+     <width>170</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

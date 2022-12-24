@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="styleSheet">
+      <string notr="true">QStackedWidget#stackedWidget{
+	background-image: url(:/image/2.jpg);
+
+}
+
+QStackedWidget#stackedWidget QPushButton{
+  border:none;
+  border-radius:10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font: 14pt &quot;Microsoft YaHei UI&quot;;   
+
+}
+QPushButton{
+font: 14pt &quot;Microsoft YaHei UI&quot;;   
+}
+QStackedWidget#stackedWidget QPushButton:hover{
+  
+	background-color: rgb(177, 255, 255);
+}
+QStackedWidget#stackedWidget QLabel{
+	color: rgb(0, 0, 0);
+	font: 14pt &quot;Microsoft YaHei UI&quot;;
+	background-color: rgb(255, 255, 255);
+}
+QStackedWidget#stackedWidget QLineEdit{
+  border:none;
+  border-radius:10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font: 14pt &quot;Microsoft YaHei UI&quot;;   
+  color: rgb(0, 0, 0);
+  
+}</string>
+     </property>
+     <widget class="QWidget" name="menupage">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>160</y>
+         <width>501</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>欢迎来到”学生成绩管理系统“</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="horizontalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>330</y>
+         <width>551</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="backbtn">
+          <property name="minimumSize">
+           <size>
+            <width>180</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>180</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>退出系统</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="lookbtn">
+          <property name="minimumSize">
+           <size>
+            <width>230</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>250</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>查询学生信息</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="lookpage">
+      <widget class="QPushButton" name="backbtn_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>40</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>返回</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>60</y>
+         <width>461</width>
+         <height>481</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="addbtn">
+          <property name="text">
+           <string>添加学生成绩</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="delbtn">
+          <property name="text">
+           <string>删除学生成绩</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="modifybtn">
+          <property name="text">
+           <string>修改学生成绩</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="searchbtn">
+          <property name="text">
+           <string>查看学生成绩</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="sortbtn">
+          <property name="text">
+           <string>根据平均分显示排名</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="addpage">
+      <property name="sizeIncrement">
+       <size>
+        <width>800</width>
+        <height>700</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#addpage  QPushButton{
+  border:none;
+  border-radius:10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font: 14pt &quot;Microsoft YaHei UI&quot;;   
+
+}
+ QPushButton:hover{
+  
+	background-color: rgb(177, 255, 255);
+}
+QWidget#addpage e  QLabel{
+	color: rgb(0, 0, 0);
+	font: 14pt &quot;Microsoft YaHei UI&quot;;
+	background-color: rgb(255, 255, 255);
+}
+QWidget#addpage  QLineEdit{
+	color: rgb(0, 0, 0);
+	font: 14pt &quot;Microsoft YaHei UI&quot;;
+	background-color: rgb(255, 255, 255);
+}
+
+QWidget#addpage {
+	background-image: url(:/image/2.jpg);
+}
+</string>
+      </property>
+      <widget class="QStackedWidget" name="stackedWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>20</y>
+         <width>691</width>
+         <height>541</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QStackedWidget#stackedWidget{
+	background-image: url(:/image/2.jpg);
+}
+
+QStackedWidget#stackedWidget QPushButton{
+  border:none;
+  border-radius:10px;
+	background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font: 14pt &quot;Microsoft YaHei UI&quot;;    
+
+}
+QStackedWidget#stackedWidget QPushButton:hover{
+	background-color: rgb(170, 255, 255);
+}
+QStackedWidget#stackedWidget QLabel{
+	color: rgb(0, 0, 0);
+ font: 14pt &quot;Microsoft YaHei UI&quot;;   
+	background-color: rgb(255, 255, 255);
+}
+
+</string>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="addpage1">
+        <widget class="QPushButton" name="okbtn">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>440</y>
+           <width>171</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>进行添加</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="backbtn_3">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>440</y>
+           <width>161</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>取消返回</string>
+         </property>
+         <property name="autoRepeatDelay">
+          <number>306</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>250</y>
+           <width>651</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>这里可以根据学号进行学生信息的添加</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>80</y>
+           <width>451</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>欢迎来到学生成绩管理系统</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_3"/>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
