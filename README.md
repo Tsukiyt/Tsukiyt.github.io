@@ -24,7 +24,7 @@
 
 lookpage
 
-><img src = "C:\Users\华为\Pictures\1.png"/>
+><img src = "https://github.com/Tsukiyt/blog/blob/master/%E4%BF%AE%E6%94%B9.png"/>
 
 menupage
 
@@ -40,7 +40,7 @@ deletepage
 
 modifypage
 
- <img src = "C:\Users\华为\Pictures\5.png"/>
+><img src = "https://github.com/Tsukiyt/blog/blob/master/%E4%BF%AE%E6%94%B9.png"/>
 
 searchpage
 
