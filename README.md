@@ -28,15 +28,15 @@ lookpage
 
 menupage
 
-> <img src = "C:\Users\华为\Pictures\2.png"/>
+> <img src = "https://github.com/Tsukiyt/blog/blob/master/%E7%95%8C%E9%9D%A22.png"/>
 
 addpage
 
-> <img src = "C:\Users\华为\Pictures\3.png"/>
+> <img src = "https://github.com/Tsukiyt/blog/blob/master/%E7%95%8C%E9%9D%A23%E6%B7%BB%E5%8A%A0.png"/>
 
 deletepage
 
-> <img src = "C:\Users\华为\Pictures\4.png"/>
+> <img src = "https://github.com/Tsukiyt/blog/blob/master/%E5%88%A0%E9%99%A4.png"/>
 
 modifypage
 
@@ -44,15 +44,15 @@ modifypage
 
 searchpage
 
-<img src = "C:\Users\华为\Pictures\6.png"/>
+<img src = "https://github.com/Tsukiyt/blog/blob/master/%E6%9F%A5%E8%AF%A2.png"/>
 
 sortpage
 
- <img src = "C:\Users\华为\Pictures\8.png"/>
+ <img src = "https://github.com/Tsukiyt/blog/blob/master/%E6%8E%92%E5%90%8D.png"/>
 
 stuSqlDialog
 
-<img src = "C:\Users\华为\Pictures\sql.png"/>
+<img src = "https://github.com/Tsukiyt/blog/blob/master/sql.png"/>
 
 
 
