@@ -174,9 +174,5 @@ print ", ".join(seg_list)
 
   输出结果：
 
-  ![image-20230127123027044](D:\blog\source\_posts\结巴分词工具\image-20230127123027044.png)
-
-  ---
-
 ![image](https://user-images.githubusercontent.com/102013791/215019449-4d80f0ba-fd9c-440c-8e69-56f194db034b.png)
 
