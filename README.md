@@ -1,2 +1,2 @@
 # Tsukiyt.github.io
-将利用github和hexo搭建我的个人博客
+- 项目一： 基于QT和SQlite的学生成绩管理系统
