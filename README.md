@@ -3,3 +3,6 @@
 > 完整源码参见：<https://github.com/Tsukiyt/Tsukiyt.github.io/tree/master>
 - 项目二：（NLP)利用pytho的jieba实现文本分析
 > 完整内容参见：<https://github.com/Tsukiyt/Tsukiyt.github.io/tree/NLP-python-jieba>
+---
+>问题及解决
+- 一：win10无法连接网络:对远程计算机或设备不接受连接
