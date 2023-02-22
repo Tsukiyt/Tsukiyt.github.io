@@ -23,39 +23,26 @@
 (1)GUI界面设计
 
 lookpage
-
-<img src = "https://github.com/Tsukiyt/blog/blob/master/%E4%BF%AE%E6%94%B9.png"/>
-
+![界面1](https://github.com/Tsukiyt/Tsukiyt.github.io/blob/master/界面1.png)
 menupage
-
-<img src = "https://github.com/Tsukiyt/blog/blob/master/%E7%95%8C%E9%9D%A22.png"/>
-
-addpage
-
-<img src = "https://github.com/Tsukiyt/blog/blob/master/%E7%95%8C%E9%9D%A23%E6%B7%BB%E5%8A%A0.png"/>
-
+![界面2](https://github.com/Tsukiyt/Tsukiyt.github.io/blob/master/界面2.png)
 deletepage
-
-<img src = "https://github.com/Tsukiyt/blog/blob/master/%E5%88%A0%E9%99%A4.png"/>
-
+![删除](https://github.com/Tsukiyt/Tsukiyt.github.io/blob/master/删除.png)
 modifypage
-
+![修改](https://github.com/Tsukiyt/Tsukiyt.github.io/blob/master/修改.png)
 
 searchpage
+![查询](https://github.com/Tsukiyt/Tsukiyt.github.io/blob/master/查询.png)
 
 > 界面我们没有再设置一个新的界面进行显示，而是直接在数据表中就可以查看所有数据
-
-![修改2](https://github.com/Tsukiyt/blog/blob/master/%E6%9F%A5%E8%AF%A2.png)
-![Uploading 修改2.png…](https://github.com/Tsukiyt/blog/blob/master/%E6%9F%A5%E8%AF%A2.png)
+![sql](https://github.com/Tsukiyt/Tsukiyt.github.io/blob/master/sql.png)
 
 sortpage
-
-<img src = "https://github.com/Tsukiyt/blog/blob/master/%E6%8E%92%E5%90%8D.png"/>
+![排序](https://github.com/Tsukiyt/Tsukiyt.github.io/blob/master/排序.png)
 
 stuSqlDialog
 
-<img src = "https://github.com/Tsukiyt/blog/blob/master/sql.png"/>
-
+![sql](https://github.com/Tsukiyt/Tsukiyt.github.io/blob/master/sql.png)
 ---
 
 （2）样式表\
